@@ -4,7 +4,7 @@
 
 The **Online Learning Platform (OLP)** is a web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This platform connects **students** and **instructors** to manage courses, enroll, and track progress.
 
-#**Note:** This project is a **work in progress**.
+# **Note:** This project is a **work in progress**.
 
 ## Features Implemented
 
