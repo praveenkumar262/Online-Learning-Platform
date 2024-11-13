@@ -1,99 +1,33 @@
-# Online Learning Platform (OLP)
+# Online Learning Platform (OLP) - MERN Stack
 
-An online learning platform built using the MERN stack (MongoDB, Express.js, React, Node.js). The platform allows users to browse and enroll in courses, track their progress, and earn certificates upon completing courses. Teachers and admins can manage the courses and users.
+## Overview
 
-# Table of Contents
-About the Project
-Features
-Installation
-Usage
-Project Structure
-Technology Stack
-Contributing
-License
-Contact
-# About the Project
-Online Learning Platform (OLP) is a full-stack web application designed to enhance the learning experience by providing an interactive online space where users can access a wide variety of courses, track their progress, and get certifications upon completion. The project is developed using the MERN stack:
+The **Online Learning Platform (OLP)** is a web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This platform connects **students** and **instructors** to manage courses, enroll, and track progress.
 
-MongoDB: NoSQL database for storing user data and course information.
-Express.js: Web framework for building the backend API.
-React: Frontend library for building the user interface.
-Node.js: Backend runtime for executing JavaScript server-side.
-# Features
-User Authentication: Users can sign up, log in, and manage their accounts.
-Course Management: Teachers can create, update, and delete courses.
-Course Enrollment: Students can enroll in courses and track their progress.
-Progress Tracking: Users can track their learning progress with completion percentages.
-Certification: Users receive a certificate when they complete a course.
-Role-based Access: Differentiated roles for users, teachers, and admins.
-# Installation
-To set up the project on your local machine, follow these steps:
+**Note:** This project is a **work in progress**.
 
-## Prerequisites
-Node.js (Download from here)
-MongoDB (Set up a MongoDB Atlas account or install MongoDB locally)
-# Steps to Install
-## Clone the repository:
+## Features Implemented
 
-git clone https://github.com/yourusername/Online-Learning-Platform.git
-cd Online-Learning-Platform
-## Install dependencies:
+- **Frontend:**  
+  - Built with **React.js** and **Vite** for fast development.
+  - Responsive design using **Material UI** and **Bootstrap**.
+  - User authentication for students and instructors.
+  - Course browsing and enrollment functionality.
 
-Navigate to the frontend and backend folders to install necessary dependencies.
+- **Backend:**  
+  - API built with **Node.js** and **Express.js**.
+  - Connected to **MongoDB** for storing user and course data.
+  - CRUD operations for courses (create, update, delete).
+  - Basic user roles (Student, Instructor, Admin).
 
-For frontend:
+## Features To Be Implemented
 
-cd frontend
-npm install
-For backend:
+- **Payment Integration:** Working on integrating **Stripe** for paid courses.
+- **Admin Dashboard:** Admin functionality for managing users and courses.
+- **Certificates:** Will add feature for issuing certificates after course completion.
 
-cd ../backend
-npm install
-## Start the development server:
+## Getting Started
 
-In the frontend directory, start the React development server:
-
-cd frontend
-npm run dev
-In the backend directory, start the backend server:
-
-cd backend
-npm start
-# Usage
-Once the app is running:
-
-Open the frontend in your browser at http://localhost:5172.
-Sign Up as a new user or Login if you already have an account.
-Explore the available courses, enroll, and track your progress.
-Teachers can create and manage courses, while admins have full control over users and courses.
-# Project Structure
-Online-Learning-Platform/
-├── frontend/
-│   ├── public/          # Public assets (e.g., images, fonts)
-│   ├── src/             # React components and other source files
-│   ├── package.json     # Frontend dependencies and scripts
-├── backend/
-│   ├── config/          # Configuration files (e.g., database setup)
-│   ├── models/          # MongoDB models (User, Course, etc.)
-│   ├── routes/          # Express.js route handlers
-│   ├── server.js        # Main backend server file
-│   ├── package.json     # Backend dependencies and scripts
-└── README.md            # This file
-# Technology Stack
-The following technologies are used in this project:
-
-## Frontend:
-React.js
-Bootstrap, Material UI (for styling)
-## Backend:
-Node.js
-Express.js
-## Database:
-MongoDB (MongoDB Atlas for cloud hosting)
-## Authentication:
-JWT (JSON Web Token)
-bcrypt.js (for hashing passwords)
-## Other Libraries:
-Axios (for API requests)
-Cors (for handling cross-origin requests)
-
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/Online-Learning-Platform.git
